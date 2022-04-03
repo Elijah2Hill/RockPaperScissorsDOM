@@ -82,7 +82,7 @@ function gamePlay(choice){
 
 function losing(){
     _resPanel.style.visibility = 'visible'; 
-    _resText.textContent = 'you loose!'; 
+    _resText.textContent = 'you lose!'; 
     compScore ++;
     _compScore.textContent = compScore; 
 }
